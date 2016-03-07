@@ -2,6 +2,10 @@ body {
     font-family: "华文细黑", "Helvetica Neue", Helvetica, STHeiTi, sans-serif;
 }
 
+a {
+	text-decoration: none !important;
+}
+
 .page-header img {
 	border: 4px solid rgba(0,0,0,0);
 	border-radius: 50%;
@@ -16,9 +20,7 @@ body {
 	margin: 5px;
 	padding: 10px 20px;
 	color: #fff !important;
-	text-decoration: none;
 	font-family: "黑体";
-	/*border: 1px solid #15915F;*/
 	border-radius: 10px;
 	font-size: 12px;
 	background: linear-gradient(45deg, #74a89b 0%,#5eb8d0 50%,#d9c950 100%);
