@@ -1,0 +1,42 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Microsoft YaHei", "华文细黑", "Helvetica Neue", Helvetica, STHeiTi, sans-serif;
+  background: #F6F6F6;
+  font-size: 28px;
+  overflow-x: hidden;
+  width: 100%;
+}
+
+a {
+  text-decoration: none !important;
+}
+
+li {
+  list-style-type: none;
+}
+
+.dahuocore-toast {
+	width: 100%;
+	position: fixed;
+	top: 500px;
+	text-align: center;
+	opacity: 0;
+	transition: opacity 1s;
+}
+
+.dahuocore-toast.visible {
+	opacity: 1;
+}
+
+.dahuocore-toast p {
+	margin: 36px;
+	text-align: center;
+	padding: 40px 20px;
+	background: #ccc;
+	display: inline-block;
+	border-radius: 10px;
+}

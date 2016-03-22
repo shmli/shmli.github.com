@@ -1,9 +1,19 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
 body {
     font-family: "华文细黑", "Helvetica Neue", Helvetica, STHeiTi, sans-serif;
+    background: #F6F6F6;
 }
 
 a {
 	text-decoration: none !important;
+}
+
+li {
+	list-style-type: none;
 }
 
 .page-header img {
@@ -24,4 +34,27 @@ a {
 	border-radius: 10px;
 	font-size: 12px;
 	background: linear-gradient(45deg, #74a89b 0%,#5eb8d0 50%,#d9c950 100%);
+}
+
+#my-face {
+	position: relative;
+	left: -72%;
+	transition: transform 2s, left 1s;
+}
+
+.guides {
+	margin-bottom: 10px;
+	background: #fff;
+}
+
+.guides li {
+	position: relative;
+	height: 200px;
+	left: 10px;
+}
+
+.guides li img {
+    left: -350px;
+    position: absolute;
+    clip: rect(0px,450px,130px,100px);
 }
