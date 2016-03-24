@@ -19,6 +19,10 @@ li {
   list-style-type: none;
 }
 
+table {
+	border-collapse: collapse;
+}
+
 .dahuocore-toast {
 	width: 100%;
 	position: fixed;
@@ -39,4 +43,8 @@ li {
 	background: #ccc;
 	display: inline-block;
 	border-radius: 10px;
+}
+
+.font-color-orange {
+   color: #ff801a!important;
 }

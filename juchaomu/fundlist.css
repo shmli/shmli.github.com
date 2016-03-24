@@ -1,0 +1,172 @@
+#mask {
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	background: rgba(0, 0, 0, 0.25);
+	z-index: 9;
+	display: none;
+}
+
+#filters {
+	position: relative;
+	z-index: 10;
+	background: #fff;
+	padding: 10px 18px;
+	border-bottom: 1px solid #e5e5e5;
+}
+
+#filters li {
+	display: inline-block;
+	vertical-align: top;
+	width: 26%;
+	height: 80px;
+	line-height: 80px;
+	margin-right: 2%;
+	color: #666;
+}
+
+#filters li#search-icon {
+	width: 16%;
+	text-align: center;
+	margin-right: 0;
+}
+
+#filters li i {
+	display: inline-block;
+	width: 30px;
+	height: 20px;
+	background: url('images/fundlist-arrow-down.png') no-repeat center;
+}
+
+#filters li div {
+	float: right;
+	width: 1px;
+	height: 100%;
+	background: linear-gradient(#fff, #666, #fff);
+}
+
+#filters li.active i {
+	background: url('images/fundlist-arrow-up.png') no-repeat center;
+}
+
+#filters li img {
+	vertical-align: middle;
+}
+
+.filter-options {
+	display: none;
+	width: 100%;
+	background: #fff;
+	max-height: 486px;
+	overflow: auto;
+	position: absolute;
+	z-index: 10;
+}
+
+.filter-options li {
+	height: 80px;
+	line-height: 80px;
+	padding: 0 30px;
+	border-bottom: 1px solid #F4F4F4;
+}
+
+.filter-options li span {
+	display: inline-block;
+	width: 80%;
+}
+
+.filter-options li i {
+	display: inline-block;
+	width: 20%;
+	height: 30px;
+	vertical-align: middle;
+}
+
+.filter-options li.active {
+	color: #8e6cd1;
+}
+
+.filter-options li.active i {
+	background: url('images/fundlist-selected.png') no-repeat center right;
+	background-size: 30px;
+}
+
+#fund-list {
+	margin-top: 20px;
+	background: #fff;
+	position: relative;
+}
+
+#fund-list table {
+	width: 100%;
+	table-layout: fixed;
+}
+
+#fund-list table thead {
+	color: #999;
+	font-size: 30px;
+}
+
+#fund-list table tr {
+	height: 88px;
+	text-align: center;
+	background: #FAFAFA;
+	border-bottom: 1px solid #e5e5e5;
+}
+
+#fund-list table tr td,
+#fund-list table tr th {
+	padding: 0 20px;
+	font-weight: normal;
+}
+
+#fund-list table tr td {
+	color: #303030;
+	overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+
+#fund-list table tr td:first-child,
+#fund-list table tr th:first-child {
+	text-align: left;
+	background: #fff;
+}
+
+#fund-list table tr td:last-child,
+#fund-list table tr th:last-child {
+	background: #fff;
+}
+
+#fund-list table tr .sort-icon {
+	width: 24px;
+}
+
+#fund-list #sort-options {
+	background: #3b3a3f;
+	color: #fff;
+	position: absolute;
+	top: 20px;
+	z-index: 10;
+	border-radius: 4px;
+	right: 18px;
+}
+
+#fund-list #sort-options li {
+	height: 86px;
+	line-height: 86px;
+	padding: 0 24px;
+}
+
+#fund-list #sort-options li i {
+	width: 30px;
+	height: 30px;
+	display: inline-block;
+	vertical-align: middle;
+	margin-left: 40px;
+}
+
+#fund-list #sort-options li.selected i {
+	background: url('images/list-sort-selected.png') no-repeat center;
+	background-size: 28px;
+}
