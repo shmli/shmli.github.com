@@ -11,11 +11,12 @@
 
 <body>
 	<div id="mask"></div>
+	<div id="sort-mask"></div>
 	<header>
 		<ul id="filters">
-			<li id="strategy">策略<i></i><div></div></li
-			><li id="type">类型<i></i><div></div></li
-			><li id="year">年份<i></i><div></div></li
+			<li id="strategy"><span>策略</span><i></i><div></div></li
+			><li id="type"><span>类型</span><i></i><div></div></li
+			><li id="year"><span>年份</span><i></i><div></div></li
 			><li id="search-icon"><img src="images/fundlist-search.png"></li>
 		</ul>
 		<ul class="filter-options strategy-options" data-param="strategy">
@@ -54,21 +55,21 @@
 	</header>
 	<section id="fund-list">
 		<ul id="sort-options">
-			<li id="year_income" class="selected">今年以来<i></i></li>
-			<li id="all_income">成立以来<i></i></li>
-			<li id="month1_income">近一月<i></i></li>
-			<li id="month3_income">近三月<i></i></li>
-			<li id="month6_income">近半年<i></i></li>
-			<li id="year1_income">近一年<i></i></li>
-			<li id="year2_income">近两年<i></i></li>
-			<li id="year3_income">近三年<i></i></li>
+			<li id="year_income" class="selected"><span>今年以来</span><i></i></li>
+			<li id="all_income"><span>成立以来</span><i></i></li>
+			<li id="month1_income"><span>近一月</span><i></i></li>
+			<li id="month3_income"><span>近三月</span><i></i></li>
+			<li id="month6_income"><span>近半年</span><i></i></li>
+			<li id="year1_income"><span>近一年</span><i></i></li>
+			<li id="year2_income"><span>近两年</span><i></i></li>
+			<li id="year3_income"><span>近三年</span><i></i></li>
 		</ul>
 		<table>
 			<thead>
 				<tr>
 					<th width="40%">基金名称</th>
 					<th width="30%">单位净值</th>
-					<th width="30%">
+					<th width="30%" id="sort-title">
 						今年以来
 						<img class="sort-icon" src="images/fundlist-sort.png">
 					</th>
@@ -81,6 +82,6 @@
 	<script src="js/webtools.js"></script>
 	<script src="js/config.js"></script>
   <script src="js/dahuocore.js"></script>
-  <script src="fundlist.js"></script>
+  <script src="fundlist.js?aa"></script>
 </body>
 </html>
